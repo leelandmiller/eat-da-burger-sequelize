@@ -1,0 +1,36 @@
+{
+  "name": "eat-da-burger-sequelize",
+  "version": "1.0.0",
+  "description": "Eat Da Burger's Sequel - with Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leelandmiller/eat-da-burger-sequelize.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Leeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leelandmiller/eat-da-burger-sequelize/issues"
+  },
+  "homepage": "https://github.com/leelandmiller/eat-da-burger-sequelize#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "bulma": "^0.5.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.2.1",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.3.6",
+    "sequelize": "^4.4.2"
+  }
+}

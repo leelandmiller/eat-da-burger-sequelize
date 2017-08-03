@@ -1,0 +1,19 @@
+{{#if orders}}
+    <section class="section">
+        <h1 class="title">Your Order</h1>
+        <div class="container">
+            {{> orders}}
+
+            <div class="">
+                {{> ready-to-eat-btn}}
+            </div>
+        </div>
+    </section>
+{{/if}}
+
+<section class="section">
+    <h1 class="title">Menu</h1>
+    <div class="columns is-multiline is-desktop">
+        {{> menu/burgers/burgers}}
+    </div>
+</section>

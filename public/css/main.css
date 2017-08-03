@@ -1,0 +1,59 @@
+.primary-color {
+    background-color: #00d1b2;;
+}
+
+.white-text {
+    color: white;
+}
+
+.menu-item {
+    -webkit-transition: box-shadow .4s;
+    -o-transition: box-shadow .4s;
+    transition: box-shadow .4s;
+}
+
+.menu-item:hover {
+    box-shadow: 4px 4px 12px #aaa;
+}
+
+.navbar-item:hover {
+    background-color: #00c4a7 !important;
+}
+
+#modal-btn {
+    height: 141px;
+    border-style: dashed;
+    border-color: lightgrey;
+    border-width: 4px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    transition: background-color .4s;
+}
+
+#modal-btn:hover {
+    cursor: pointer;
+    background-color: #aaaaaa;
+}
+
+.add-sign {
+    font-size: 70px;
+    color: lightgrey;
+}
+
+.left-align {
+    justify-content: flex-start;
+}
+
+.right-align {
+    justify-content: flex-end;
+}
+
+.del-order-btn {
+    margin-left: 10px;
+}
